@@ -1,0 +1,64 @@
+.container{
+    width: 85%;
+}
+section{
+    margin: 50px 0px;
+}
+a.nav-link {
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+}
+.card, .card-footer{
+    border: none;
+}
+.hero-sec-text h1{
+    font-size: 50px;
+    color: orangered;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.hero-sec-text h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: darkblue;
+    font-weight: 700;
+}
+.cart-btn{
+    padding: 16px 40px;
+    background-color: darkblue;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.card-footer h6{
+    color: orange;
+    font-size: 36px;
+}
+.card img{
+    width: 250px;
+    margin: 0 auto;
+}
+.right-text{
+    margin-left: 20px;
+}
+.box{
+    margin: 50px 0px;
+}
+.head-text{
+    color: rgba(4, 4, 83, 0.856);
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+footer{
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+    padding: 20px 0px;
+}
+@media screen and (max-width: 600px) {
+    .head-text {
+    text-align: center;
+}
+}
